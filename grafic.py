@@ -35,8 +35,8 @@ def representacion(porcentajes, tagId):
     enlace = userdbx.files_get_temporary_link("/"+nombre)
     print('Grafica subida a: ', enlace)
 
-    down = open("Enlaces.txt", "a")
-    down.write(enlace)
+    #Eliminación de la parte que guarda el enlace en un TXT
+    
 
     
 
